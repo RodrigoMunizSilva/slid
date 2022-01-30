@@ -1,0 +1,26 @@
+.center {
+  display: flex;
+  max-width: 1100px;
+  padding: 0 2%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+section.depoimentos1 {
+  background: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container-slider1 {
+  overflow: hidden;
+  padding: 20px 0;
+  text-align: center;
+}
+.container-slider-single1 {
+  background: white;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
