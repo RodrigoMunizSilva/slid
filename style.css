@@ -1,0 +1,638 @@
+/* Estilos gerais */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.subtitulo {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px auto;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background: #cb4a22;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  padding-bottom: 0px;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.header_menu ul li a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #004aad;
+}
+
+.header_menu ul li a.menu_ativo {
+  color: white;
+}
+
+/*Introdução */
+. {
+  width: 100%;
+  height: 384px;
+  background-color: #004aad;
+  /*background: url("../img/index/bg.jpg") no-repeat center;*/
+  background-size: cover;
+  margin-top: 80px;
+  text-align: center;
+  padding-top: 150px; /*pra ficar lá em cima direito */
+}
+
+.introducao1 {
+  width: 100%;
+  height: 384px;
+  background-color: #4169cb;
+  background-size: cover;
+  margin-top: 80px;
+  text-align: center;
+  padding-top: 150px; /*pra ficar lá em cima direito */
+}
+.quote1 {
+  max-width: 400px; /* o tamanho que vai ficar alinhado */
+  margin: 0 auto;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif; /*primeira a fonte que eu quero e depois o que vai seguindo como opções */
+  font-style: italic;
+  font-size: 24px;
+  line-height: 25px; /*permite controlar o espaçamento entre as linhas de um texto*/
+  letter-spacing: 0.1em; /*espaço entre letras*/
+}
+
+.quote {
+  max-width: 400px; /* o tamanho que vai ficar alinhado */
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif; /*primeira a fonte que eu quero e depois o que vai seguindo como opções */
+  font-style: italic;
+  font-size: 18px;
+  line-height: 25px; /*permite controlar o espaçamento entre as linhas de um texto*/
+  letter-spacing: 0.1em; /*espaço entre letras*/
+}
+
+.quote p:before,
+.quote p::after {
+  /* para criar as linhas em cima e embaixo (before) e acima (after*/
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  margin: 10px auto; /* alinhar ao centro e um espaçamento entre*/
+}
+.btn {
+  /*botão */
+  border: 3px solid #4169cb;
+  padding: 10px 30px; /* espaçamento */
+  color: #4169cb;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase; /* todos pra maiuscula */
+  letter-spacing: 0.1em;
+  font-weight: bold; /*negrito*/
+}
+
+.btn:hover {
+  color: #000;
+  border-color: black;
+}
+
+/* introdução interna */
+
+.introducao-interna {
+  width: 100%;
+  margin-top: 170px;
+  height: 160px;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;
+  color: white;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.introducao-interna h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 6px auto;
+}
+
+/* Imovéis */
+.imoveis {
+  padding: 60px 0;
+}
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #004aad;
+}
+
+.testando h3 {
+  background-color: #476fd1;
+  text-align: center;
+  /* padding: 10px 20px 10px 20px; */
+}
+
+.suma {
+  margin-bottom: 10px;
+  background: url("../img/Rectangle\ 6.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+.bac {
+  background: url("../img/Rectangle\ 6.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+}
+
+.dm {
+  /*pra poder descer uma pagina*/
+  color: #ffffff;
+  background: url("../img/Rectangle\ 6.jpg") no-repeat center;
+  text-align: center;
+}
+
+.call {
+  text-align: center;
+  margin-top: 40px;
+  clear: both;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 50px;
+}
+
+.call p {
+  margin-bottom: 50px;
+}
+
+/* Depoimentos */
+
+section.depoimentos {
+  background: white;
+  padding: 40px 0;
+}
+
+.container-slider-single p {
+  text-align: center;
+  color: black;
+  letter-spacing: 0.1em;
+
+  font-size: 15px;
+}
+.container-slider {
+  overflow: hidden;
+  padding: 40px 0;
+  text-align: center;
+}
+.container-slider-single {
+  background: white;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 100px;
+}
+.slick-slide {
+  margin-left: 27px;
+}
+
+/* the parent */
+.slick-list {
+  margin-left: -27px;
+}
+
+/********SLICK SLIDER*****/
+
+.slick-dotted ul {
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+
+.slick-dotted li {
+  display: inline-block;
+  margin: 0 7px;
+}
+
+.slick-dotted button:focus {
+  outline: 0;
+}
+
+.itens-menub {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.itens-menub a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.itens-menub a:hover {
+  border-bottom: 2px solid #d8d8d8;
+}
+.slick-dotted li button {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  color: #d8d8d8;
+  border-width: 0;
+  background: #d8d8d8;
+  opacity: 1;
+  cursor: pointer;
+}
+
+li.slick-active button {
+  background: #004aad;
+  color: #004aad;
+}
+
+.slick-slide:focus {
+  outline: none;
+}
+
+/********fim SLIDER*****/
+.subtitulo1 {
+  color: #4169cb;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subtitulo1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  margin: 8px auto;
+}
+
+/* Quebra */
+
+.quebra {
+  padding-top: 40px;
+
+  height: 220px;
+  background-color: #004aad;
+  /* background: url("../img/index/casinhas.jpg") no-repeat center;*/
+
+  background-size: cover;
+  text-align: center;
+}
+.quebra .quote {
+  max-width: 400px;
+}
+
+/*Futter*/
+
+.footer {
+  width: 100%;
+  background: #cb4a22;
+  color: #fefffa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #fefffa;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.footer h3::after {
+  /* para criar as linhas em cima e embaixo (before) e acima (after*/
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  margin: 6px auto; /* alinhar ao centro e um espaçamento entre*/
+}
+.footer_trabalhe {
+  padding-right: 40px;
+}
+
+.footer_contato ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
+.footer_contato ul li a:hover {
+  color: whitesmoke;
+}
+
+.footer_contato a:link,
+a:visited,
+a:active {
+  color: white;
+  text-decoration: white;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer_redes ul li a {
+  display: block;
+  border: 1px solid;
+  width: 45px;
+  height: 45px;
+  padding: 6px;
+}
+
+.footer_redes ul li a:hover {
+  border-color: #010101;
+}
+
+.copy {
+  width: 100%;
+  background: #010101;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+/*casas*/
+
+.casas {
+  margin: 40px;
+}
+
+.bg_imoveis {
+  width: 100%;
+  height: 160px;
+  background: url("../img/cachambigetulio386/bg_imoveis.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 70px;
+  text-align: center;
+  padding-top: 100px;
+} /*pra ficar lá em cima direito */
+
+.imoveissim h1 {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.imoveissim h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  margin: 6px auto;
+}
+
+.introducao2 {
+  width: 100%;
+  height: 384px;
+  background: url("../img/bg.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 70px;
+  text-align: center;
+  padding-top: 100px; /*pra ficar lá em cima direito */
+}
+
+.depoimentos-tb {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin: 0;
+  background: white;
+  resize: vertical;
+}
+
+/*casas engenho de dentro*/
+
+.alinhamento {
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  padding-right: 10px;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+/* 5 Adicione o CSS Essencial abaixo */
+[data-slide] {
+  position: relative;
+}
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+section.contato {
+  padding-bottom: 5px;
+}
+
+section.contato h1 {
+  font-size: 20px;
+  color: #004aad;
+}
+
+section.contato form {
+  width: 100%;
+  display: inline-block;
+}
+
+.contato input[type="text"],
+.contato input[type="email"] {
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background: #fcfdff;
+  border: 1px solid #c3cce8;
+  padding-left: 10px;
+}
+
+.contato textarea {
+  width: 100%;
+  height: 120px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background: #fcfdff;
+  border: 1px solid #c3cce8;
+  padding: 10px;
+  resize: none;
+}
+
+.contato input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  border: 0;
+  background: #cb4a22;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.seila {
+  text-align: center;
+}
+
+.itens-menu-mobile {
+  width: 100%;
+  text-align: right;
+  display: none;
+}
+.itens-menu-mobile i {
+  color: #29411d;
+  position: relative;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+}
+
+/*Botão flutuante */
+.btn-whatsaap {
+  position: fixed;
+  outline: none;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+  cursor: pointer;
+  background: #34af23;
+  color: #fff;
+  font-size: 2.3rem;
+  border: 1px solid #f1f1f1;
+}
+
+.box-sobre {
+  box-shadow: 0px 20px 40px #2426721c;
+  width: 31%;
+  margin-right: 2%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.box-serviços {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.alinhar {
+  display: flex;
+  text-align: left;
+}
+.alinhartb {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+.r {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: justify;
+}
