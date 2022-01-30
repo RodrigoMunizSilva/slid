@@ -1,0 +1,233 @@
+l>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Magalhães Administrador de Imóveis</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+  <link rel="stylesheet" href="css/simple-slide.css">
+  <link rel="stylesheet" href="css/casas.css">
+  <script>document.documentElement.classList.add("js");</script>
+
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="img/logonova3.png" alt="Logo">
+      </a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li> <a href="index.html">Home</a> </li>
+          <li> <a href="quemsou.html">Quem sou</a> </li>
+          <li> <a href="materia2.html">NOTÍCIAS/ MATÉRIA</a> </li>
+          <li> <a href="locacao.html" class="menu_ativo">LOCAÇÃO e venda </a> </li>
+          <li> <a href="contato.html">Contato</a> </li>
+
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+  <section class="introducao1">
+    <div class="container">
+
+      <blockquote class="quote1">
+
+        <p>CASA - ENGENHO DE DENTRO</p>
+      </blockquote>
+    </div>
+    <section class="depoimentos1">
+
+
+      <div class="center">
+
+
+        <div class="container-slider1">
+
+          <div class="container-slider-single1">
+            <img src="casas/565fa385-a290-4711-b49e-7c1fafeba418.jpg" width=50%>
+          </div>
+
+          <div class="container-slider-single1">
+            <img src="casas/1c62784f-7259-4456-9749-0591ec6c5731.jpg" width=50%>
+          </div>
+
+          <div class="container-slider-single1">
+            <img src="casas/6c1602c2-4a00-40ce-9c7a-8cf16c354915.jpg" width=50%>
+          </div>
+          <div class="container-slider-single1">
+            <img src="casas/25fbbcd9-6419-4dde-9792-21cbb2713e68.jpg" width=50%>
+          </div>
+
+          <div class="container-slider-single1">
+            <img src="casas/97b850db-048c-499f-98aa-52b0a1f653d0.jpg" width=50%>
+          </div>
+          <div class="container-slider-single1">
+            <img src="casas/72686523-5d48-4196-8199-93e1fdd4f953.jpg" width=50%>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+
+    <section class="container">
+      <div class="grid-10" position>
+        <b>Apartamento com 4 quartos, próximo ao Note Shopping, à venda por R$ 1.350.000,00</b>
+        <p>Engenho de Dentro - Rio de Janeiro - RJ</p>
+        <br>
+        <div class="alinhartb">
+
+          <img src="incon/bed-double (1).svg" width="5%">
+          <b> 5 quartos</b>
+
+          <img src="incon/car-sideview.svg" width=" 5%">
+          <b>5 vagas</b>
+
+          <img src="incon/bath (1).svg" width="5%">
+          <b> 3 banheiros</b>
+        </div>
+        <br>
+        <div class="alinhar">
+          <img src="incon/check-square.svg" width="3%">
+          <b> Características</b>
+
+        </div>
+        <br>
+        <div class="box-serviços">
+
+          <ul>
+            <li> Duplex</li>
+            <li> Área de serviço</li>
+            <li> 4 Quartos</li>
+            <li> 2 Banheiros sociais</li>
+            <li> 2 Suítes</li>
+          </ul>
+          <ul>
+            <li>2 Salas</li>
+            <li> 1 cozinha ampla com dispensa</li>
+            <li>1 cozinha integrada com a área de serviço</li>
+            <li> 1 escritório (podendo ser revertido em quarto)</li>
+          </ul>
+
+        </div>
+      </div>
+      <div>
+
+
+        <div class="grid-7 box-sobre">
+          <b>Venda</b><br>
+          <p> R$ 1.350.000,00</p>
+          <p> IPTU R$ 3.360</p>
+          <br>
+          <b> Agendamento</b>
+          <p> Visita com data e hora marcada.
+          </p>
+        </div>
+        <div class="grid-10">
+
+          <b> Descrição</b>
+
+
+
+          <p> Maravilhosa casa Duplex situada na Rua Comendador João Carneiro de Almeida, próximo ao Estádio do Engenhão, Norte Shopping, com diversos transportes para toda cidade e farto comércios</p>
+
+
+          <p> Casa com 314m², duplex, clara e arejada, com 5 quartos (sendo 2 suítes), 2 salas espaçosas, 3 banheiros e cozinha. Área externa para lazer, com 5 vagas e câmeras com circuito interno de monitoramento.</p>
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <section class="quebra">
+      <blockquote class="quote container">
+        <P> EMPRESA ESPECIALIZADA EM CONSULTORIA E ASSESSORIA DOCUMENTAL JUNTO AO DIREITO IMOBILIÁRIO</P>
+      </blockquote>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <div class="container">
+
+          <div class="grid-8 footer_trabalhe">
+            <h3>Trabalhe conosco</h3>
+            <p>Indique alguém e ganhe por isso, entre em contato conosco e saiba como.</p>
+          </div>
+
+          <div class="grid-4 footer_contato">
+            <h3>Contato</h3>
+            <ul>
+              <li> <a target="_blank" href="https://api.whatsapp.com/send?phone=5521975287051"> Claro: 97528-7051-whatsapp</a></li>
+              <li>E-mail: joaomagalhaesadm@yahoo.com.br</li>
+            </ul>
+          </div>
+
+          <div class="grid-4 footer_redes">
+            <h3>Rede Social</h3>
+            <ul>
+              <li><a href="https://instagram.com/joaoadmimoveis?utm_medium=copy_link" target="_blank"><img src="img/instagram.svg"></a></li>
+              <li><a target="_blank" href="https://api.whatsapp.com/send?phone=5521975287051"><img src="img/whatsapp1.svg"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="copy">
+        <div class="container">
+          <p class="grid-16"> © João Magalhães Administrador de Imóveis - Alguns direitos reservados. </p>
+        </div>
+      </div>
+      <button class="btn-whatsaap">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=5521975287051"><img src="img/whatsappboton.svg"></a></li>
+        <i class="fa fa-whatsapp"></i>
+      </button>
+
+
+
+    </footer>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+
+      $('.container-slider1').slick({
+        dots: true,
+        arrows: false,
+        speed: 1000,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: true,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }],
+      });
+    </script>
+
+
+</body>
+
+</html>
